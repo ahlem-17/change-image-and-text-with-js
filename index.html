@@ -7,10 +7,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vaihda kuva ja teksti JavaScript avulla</title>
     <link rel="stylesheet" href="./css/layout.css">
+    <script src="js/script.js"></script>
+
 </head>
 
 <body>
-
+    <div class="container">
+        <h1 class="title">Mozilla is cool</h1>
+        <img class="demo" onclick="changeImage()" src="./images/download.png" alt="mozilla is cool">
+    </div>
+    <button class="btn" onclick="changeUser()">Change user</button>
+    <p>At Mozilla, we`re a global community of</p>
+    <ul>
+        <li>technologists</li>
+        <li>thinkers</li>
+        <li>builders</li>
+    </ul>
 </body>
 
 </html>

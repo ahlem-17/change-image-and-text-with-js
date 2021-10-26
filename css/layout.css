@@ -1,0 +1,45 @@
+    html {
+        font-size: 62.5%;
+    }
+    
+    body {
+        background-color: #FF9500;
+    }
+    
+    img {
+        width: 20%;
+    }
+    
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .title {
+        color: #003566;
+        font-weight: 900;
+    }
+    
+    @media only screen and (min-width: 425px) {
+        .title {
+            font-size: 1.2rem;
+        }
+    }
+    
+    @media only screen and (min-width: 768px) {
+        body {
+            font-size: 1.8rem;
+        }
+        .container {
+            padding-left: 15rem;
+        }
+        .btn {
+            font-size: 1.5rem;
+        }
+        .title {
+            font-size: 2rem;
+            margin-left: -5rem;
+        }
+    }
